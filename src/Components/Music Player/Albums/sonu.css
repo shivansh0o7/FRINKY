@@ -1,0 +1,274 @@
+#Sonu_wal
+{
+    position: 'relative';
+    height: 257px;
+    top: 90px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#Sonu_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#Sonu_name
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#Sonu_artists
+{
+    padding-left: 158px;
+    font-weight: bold;
+}
+#Sonu_duration
+{
+    padding-left: 312px;
+    font-weight: bold;
+}
+.list_art_sonu {
+    margin-left: 67px;
+    margin-top: 5px;
+}
+.heart1_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -461px;
+    left: 137px;
+}
+.heart1_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+.heart1_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -406px;
+    left: 117px;
+}
+.heart2_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+.heart3_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -351px;
+    left: 97px;
+}
+.heart3_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+.heart4_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -296px;
+    left: 77px;
+}
+.heart4_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+.heart5_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -242px;
+    left: 57px;
+}
+.heart5_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+.heart6_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -186px;
+    left: 37px;
+}
+.heart6_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart6_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+.heart7_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -132px;
+    left: 17px;
+}
+.heart7_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart7_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+.heart8_sonu
+{
+    display: inline-block;
+    position: relative;
+    top: -76px;
+    left: -3px;
+}
+.heart8_sonu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart8_sonu path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #sonu_space
+    {
+        height: 377px;
+    }
+    #Sonu_wal
+    {
+        position: relative;
+    height: 257px;
+    top: 57px;
+    left: 12px;
+    border: 3px solid white;
+    border-radius: 15px;
+    }
+#Sonu_number
+{
+    padding-left: 16px;
+    font-weight: bold;
+}
+#Sonu_name
+{
+    padding-left: 77px;
+    font-weight: bold;
+}
+#Sonu_artists
+{
+    padding-left: 76px;
+    font-weight: bold;
+}
+#Sonu_duration
+{
+    display: none;
+}
+.song_name
+{
+    margin-left: 10px;
+    width: 138px;
+}
+.list_art_sonu {
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 329px;
+}
+.duration
+{
+    display: none;
+}
+.heart1_sonu {
+    display: inline-block;
+    position: relative;
+    top: -443px;
+    left: 55px;
+}
+.heart2_sonu {
+    display: inline-block;
+    position: relative;
+    top: -388px;
+    left: 35px;
+}
+.heart3_sonu {
+    display: inline-block;
+    position: relative;
+    top: -334px;
+    left: 15px;
+}
+.heart4_sonu {
+    display: inline-block;
+    position: relative;
+    top: -280px;
+    left: -5px;
+}
+.heart5_sonu {
+    display: inline-block;
+    position: relative;
+    top: -225px;
+    left: -25px;
+}
+.heart6_sonu {
+    display: inline-block;
+    position: relative;
+    top: -170px;
+    left: -44px;
+}
+.heart7_sonu {
+    display: inline-block;
+    position: relative;
+    top: -116px;
+    left: -64px;
+}
+.heart8_sonu {
+    display: inline-block;
+    position: relative;
+    top: -63px;
+    left: -84px;
+}
+}

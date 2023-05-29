@@ -1,0 +1,18 @@
+#wall_vishal
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+@media screen and (max-width: 460px) 
+{
+    #wall_vishal
+    {
+        height: 255px;
+        top: 65px;
+        left: 9px;
+    }
+}

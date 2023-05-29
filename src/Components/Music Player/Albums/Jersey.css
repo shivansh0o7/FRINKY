@@ -1,0 +1,43 @@
+.duration_jersey{
+    margin-top: 8px;
+    margin-left: 162px;
+}
+.duration_jersey p
+{
+    margin-bottom:36px;
+}
+@media screen and (max-width: 460px) 
+{
+    .duration_jersey
+    {
+        display: none;
+    }
+    #jersey_space
+    {
+        height: 458px;
+    }
+    .heart1 {
+        display: inline-block;
+        position: relative;
+        top: -239px;
+        left: 58px;
+    }
+    .heart2 {
+        display: inline-block;
+        position: relative;
+        top: -184px;
+        left: 38px;
+    }
+    .heart3 {
+        display: inline-block;
+        position: relative;
+        top: -130px;
+        left: 19px;
+    }
+    .heart4 {
+        display: inline-block;
+        position: relative;
+        top: -76px;
+        left: -1px;
+    }
+}

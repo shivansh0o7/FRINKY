@@ -1,0 +1,36 @@
+#guru_wal
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: '3px solid white';
+    border-radius: 15px;
+}
+#guru_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#guru_name
+{
+    padding-left: 153px;
+    font-weight: bold;
+}
+@media screen and (max-width: 460px) 
+{
+    #guru_number
+    {
+        padding-left: 5px;
+    }
+    #guru_name
+    {
+        padding-left: 66px;
+    }
+    #guru-wal
+    {
+        height: 230px;
+        top: 92px;
+        left: 8px;
+    }
+}

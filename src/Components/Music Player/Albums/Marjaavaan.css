@@ -1,0 +1,308 @@
+#wall_mar
+{
+    height: 300px;
+    position: relative;
+    top: 47px;
+    left: 100px;
+    border:3px solid white;
+    border-radius: 15px;
+}
+#mar_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#mar_name
+{
+    padding-left: 116px;
+    font-weight: bold;
+}
+#mar_artists
+{
+    padding-left: 207px;
+    font-weight: bold;
+}
+#mar_duration
+{
+    padding-left: 303px;
+    font-weight: bold;
+}
+.heart1_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -576px;
+    left: 147px;
+}
+.heart1_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart2_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -520px;
+    left: 127px;
+}
+.heart2_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart3_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -466px;
+    left: 107px;
+}
+.heart3_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart4_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -411px;
+    left: 87px;
+}
+.heart4_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart5_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -357px;
+    left: 67px;
+}
+.heart5_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart6_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -303px;
+    left: 47px;
+}
+.heart6_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart6_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart7_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart7_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -248px;
+    left: 27px;
+}
+.heart7_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart8_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -192px;
+    left: 7px;
+}
+.heart8_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart8_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart9_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -139px;
+    left: -11px;
+}
+.heart9_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart9_mar path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart10_mar
+{
+    display: inline-block;
+    position: relative;
+    top: -84px;
+    left: -31px;
+}
+.heart10_mar:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart10_mar path
+{
+    stroke: black;
+    stroke-width:3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #mar_space
+    {
+        height: 389px;
+    }
+    #wall_mar
+    {
+        left:9px;
+        height: 273px;
+    }
+    #mar_number
+    {
+        padding-left: 14px;
+        font-weight: bold;
+    }
+    #mar_name
+    {
+       padding-left: 88px;
+       font-weight: bold; 
+    }
+    #mar_artists
+    {
+        padding-left: 80px;
+        font-weight: bold;
+    }
+    #mar_duration
+    {
+        display: none;
+    }
+    .heart1_mar
+    {
+        display: inline-block;
+        position: relative;
+        top: -572px;
+        left: 66px;
+    }
+    .heart2_mar
+    {
+        display: inline-block;
+        position: relative;
+        top: -517px;
+        left: 46px;
+    }
+    .heart3_mar
+    {
+        display: inline-block;
+        position: relative;
+        top: -462px;
+        left: 26px;
+    }
+    .heart4_mar
+    {
+        display: inline-block;
+    position: relative;
+    top: -408px;
+    left: 6px;
+    }
+    .heart5_mar
+    {
+        display: inline-block;
+        position: relative;
+        top: -354px;
+        left: -14px
+    }
+    .heart6_mar
+    {
+        display: inline-block;
+    position: relative;
+    top: -300px;
+    left: -34px;
+    }
+    .heart7_mar
+    {
+        display: inline-block;
+        position: relative;
+        top: -246px;
+        left: -54px;   
+    }
+    .heart8_mar
+    {
+        display: inline-block;
+        position: relative;
+        top: -190px;
+        left: -74px;
+    }
+    .heart9_mar {
+        display: inline-block;
+        position: relative;
+        top: -136px;
+        left: -94px;
+    }
+    .heart10_mar {
+        display: inline-block;
+        position: relative;
+        top: -82px;
+        left: -114px;
+    }
+}

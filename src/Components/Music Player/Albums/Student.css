@@ -1,0 +1,198 @@
+#Student_Number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#Student_Name
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#Student_Artists
+{
+    padding-left: 189px;
+    font-weight: bold;
+}
+#Student_Duration
+{
+    padding-left: 529px;
+    font-weight: bold;
+}
+.heart1_student
+{
+    display: inline-block;
+    position: relative;
+    top: -346px;
+    left: 137px;
+}
+.heart1_student path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart1_student:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_student
+{
+    display: inline-block;
+    position: relative;
+    top: -291px;
+    left: 117px;
+}
+.heart2_student path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart2_student:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_student
+{
+    display: inline-block;
+    position: relative;
+    top: -237px;
+    left: 97px;
+}
+.heart3_student path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart3_student:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_student
+{
+    display: inline-block;
+    position: relative;
+    top: -180px;
+    left: 76px;
+}
+.heart4_student path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart4_student:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_student
+{
+    display: inline-block;
+    position: relative;
+    top: -126px;
+    left: 56px;
+}
+.heart5_student path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart5_student:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart6_student
+{
+    display: inline-block;
+    position: relative;
+    top: -72px;
+    left: 36px;
+}
+.heart6_student path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart6_student:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+@media screen and (max-width: 460px) 
+{
+    #Student_Number
+    {
+        padding-left: 18px;
+    font-weight: bold;
+    }
+    #Student_Name
+    {
+        padding-left: 73px;
+    font-weight: bold;
+    }
+    #Student_Artists
+    {
+        padding-left: 86px;
+    font-weight: bold;
+    }
+    #Student_Duration
+    {
+        display: none;
+    }
+    #list_art_student
+    {
+        margin-left: 9px;
+    margin-top: 5px;
+    width: 276px;
+    }
+    .heart1_student
+    {
+        display: inline-block;
+        position: relative;
+        top: -415px;
+        left: 54px;
+    }
+    .heart2_student
+    {
+        display: inline-block;
+        position: relative;
+        top: -360px;
+        left: 35px;
+    }
+    .heart3_student
+    {
+        display: inline-block;
+    position: relative;
+    top: -306px;
+    left: 16px;
+    }
+    .heart4_student
+    {
+        display: inline-block;
+    position: relative;
+    top: -252px;
+    left: -4px;
+    }
+    .heart5_student
+    {
+        display: inline-block;
+    position: relative;
+    top: -197px;
+    left: -25px;
+    }
+    .heart6_student
+    {
+        display: inline-block;
+        position: relative;
+        top: -143px;
+        left: -45px;
+    }
+}

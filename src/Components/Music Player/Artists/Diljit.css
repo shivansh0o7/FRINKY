@@ -1,0 +1,36 @@
+#wall_diljit
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#diljit_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#diljit_name
+{
+    padding-left: 153px;
+    font-weight: bold;
+}
+@media screen and (max-width: 460px) 
+{
+    #wall_diljit
+    {
+        height: 288px;
+        top: 29px;
+        left: 6px;
+    }
+    #diljit_number
+    {
+        padding-left: 10px;
+    }
+    #diljit_name
+    {
+        padding-left: 62px;
+    }   
+}

@@ -1,0 +1,65 @@
+.Favorite
+{
+    background: linear-gradient(256deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.FavSong
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 104px;
+    gap: 65px;
+    justify-content: center;
+}
+.head_fav
+{
+    display: flex;
+    justify-content: center;
+}
+.head_fav h1
+{
+    font-size: 100px;
+}
+#fav_icon
+{
+    position:relative;
+    top:14px;
+}
+#marquee
+{
+    color:white;
+    font-size:40px;
+}
+.space_fav
+{
+    height: 200px;
+}
+@media screen and (max-width: 460px)
+{
+    .Favorite
+    {
+        display: block;
+    }
+    .head_fav h1
+    {
+        font-size: 28px;
+        color: gold;
+    }
+    .head_fav img
+    {
+        height: 33px;
+    }
+    #fav_icon
+    {
+        top: 5px;
+    }
+    #marquee
+    {
+        font-size: 15px;
+    }
+    .space_fav
+    {
+        height: 739px;
+    }
+}

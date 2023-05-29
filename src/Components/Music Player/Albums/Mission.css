@@ -1,0 +1,25 @@
+#Album_artist_mission
+{
+    font-weight: bold;
+    padding-left: 210px;
+}
+#Album_Mission_duration
+{
+    padding-left: 313px;
+    font-weight: bold;
+}
+@media screen and (max-width: 460px) 
+{
+    #Mission_space
+    {
+        height: 451px;
+    }
+    #Album_artist_mission{
+        padding-left: 75px;
+        font-weight: bold;
+    }
+    #Album_Mission_duration
+    {
+        display: none;
+    }
+}

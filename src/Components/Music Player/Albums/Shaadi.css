@@ -1,0 +1,174 @@
+#shaadi_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#shaadi_name
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#shaadi_artists
+{
+    padding-left: 178px;
+    font-weight: bold;
+}
+#shaadi_duration
+{
+    padding-left: 426px;
+    font-weight: bold;
+}
+.duration_shaadi{
+    margin-top: 8px;
+    margin-left: 269px;
+}
+.duration_shaadi p
+{
+    padding-bottom:19px;
+}
+.heart1_shaadi
+{
+    display: inline-block;
+    position: relative;
+    top: -282px;
+    left: 136px;
+}
+.heart1_shaadi:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_shaadi path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart2_shaadi
+{
+    display: inline-block;
+    position: relative;
+    top: -228px;
+    left: 115px;
+}
+.heart2_shaadi:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_shaadi path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart3_shaadi
+{
+    display: inline-block;
+    position: relative;
+    top: -172px;
+    left: 95px;
+}
+.heart3_shaadi:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_shaadi path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart4_shaadi
+{
+    display: inline-block;
+    position: relative;
+    top: -118px;
+    left: 75px
+}
+.heart4_shaadi:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_shaadi path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart5_shaadi
+{
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    left: 55px;
+}
+.heart5_shaadi:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_shaadi path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #shaadi_number
+    {
+        padding-left: 19px;
+        font-weight: bold; 
+    }
+    #shaadi_name
+    {
+        padding-left: 73px;
+    font-weight: bold;
+    }
+    #shaadi_artists
+    {
+        padding-left: 79px;
+        font-weight: bold;   
+    }
+    #shaadi_duration
+    {
+        display: none;
+    }
+    .duration_shaadi
+    {
+        display: none;
+    }
+    .heart1_shaadi {
+        display: inline-block;
+        position: relative;
+        top: -299px;
+        left: 56px;
+    }
+    .heart2_shaadi {
+        display: inline-block;
+        position: relative;
+        top: -244px;
+        left: 36px;
+    }
+    .heart3_shaadi {
+        display: inline-block;
+        position: relative;
+        top: -191px;
+        left: 16px;
+    }
+    .heart4_shaadi {
+        display: inline-block;
+        position: relative;
+        top: -136px;
+        left: -4px;
+    }
+    .heart5_shaadi {
+        display: inline-block;
+        position: relative;
+        top: -83px;
+        left: -24px;
+    }
+}

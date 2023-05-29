@@ -1,0 +1,18 @@
+#wall_king
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+@media screen and (max-width: 460px)
+{
+    #wall_king
+    {
+        height: 276px;
+        top: 39px;
+        left: 12px;
+    }
+}

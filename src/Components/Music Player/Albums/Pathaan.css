@@ -1,0 +1,163 @@
+#Pathaan_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#Pathaan_name
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#Pathaan_artist
+{
+    padding-left: 239px;
+    font-weight: bold;
+}
+#Pathaan_duration
+{
+    padding-left: 408px;
+    font-weight: bold;
+}
+.song_name_Pathaan
+{
+    margin-left: 43px;
+}
+.heart1_Pathaan{
+    display: inline-block;
+    position: relative;
+    top: -230px;
+    left: 138px;
+}
+.heart1_Pathaan:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_Pathaan path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart2_Pathaan{
+    display: inline-block;
+    position: relative;
+    top: -175px;
+    left: 118px;
+}
+.heart2_Pathaan:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_Pathaan path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart3_Pathaan{
+    display: inline-block;
+    position: relative;
+    top: -121px;
+    left: 98px;
+}
+.heart3_Pathaan:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_Pathaan path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart4_Pathaan{
+    display: inline-block;
+    position: relative;
+    top: -66px;
+    left: 78px;
+}
+.heart4_Pathaan:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_Pathaan path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #Pathaan_number
+    {
+        padding-left: 1px;
+        font-weight: bold;
+    }
+    #Pathaan_name
+    {
+        padding-left: 58px;
+        font-weight: bold;
+    }
+    #Pathaan_artist
+    {
+        padding-left: 96px;
+        font-weight: bold;
+    }
+    #Pathaan_duration
+    {
+        display: none;
+    }
+    #Pathaan_song_number
+    {
+        margin-left: 4px;
+    }
+    .Pathaan_img {
+        display: flex;
+        flex-direction: column;
+        margin-left: 29px;
+        margin-top: 14px;
+    }
+    #Pathaan_name {
+        margin-left: 10px;
+    }
+    #Pathaan_art {
+        margin-left: -1px;
+        margin-top: 5px;
+        width: 270px;
+    }
+    .song_name_Pathaan {
+        margin-left: 7px;
+    }
+    .heart1_Pathaan
+    {
+        display: inline-block;
+    position: relative;
+    top: -369px;
+    left: 24px;
+    }
+    .heart2_Pathaan
+    {
+        display: inline-block;
+    position: relative;
+    top: -314px;
+    left: 4px;
+    }
+    .heart3_Pathaan
+    {
+        display: inline-block;
+    position: relative;
+    top: -260px;
+    left: -16px;
+    }
+    .heart4_Pathaan
+    {
+        display: inline-block;
+    position: relative;
+    top: -205px;
+    left: -36px;
+    }
+}

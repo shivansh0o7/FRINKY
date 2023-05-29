@@ -1,0 +1,58 @@
+.Artists {
+  margin-left: 27px;
+}
+#Artists {
+  display: flex;
+  gap: 20px;
+  width: 774px;
+}
+.head_artist h1 {
+  margin-left: 30px;
+  color: white;
+}
+.Artists a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+.Artists a :hover {
+  color: blueviolet;
+}
+#A_rtiests {
+  height: 150px;
+  clip-path: circle(50% at 50% 50%);
+}
+@media screen and (max-width: 460px) {
+
+  .Artists{
+    display: none;
+  }
+  #Artists {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+#Artists a
+{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+}
+#A_rtiests {
+    height: 90px;
+}
+.Artists {
+  margin-left: 27px;
+}
+.head_artist h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+}
+}

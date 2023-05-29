@@ -1,0 +1,230 @@
+#wall_kabir
+{
+    height: 285px;
+    position: relative;
+    top:61px;
+    left:100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#kabir_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#kabir_name
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#kabir_artists
+{
+    padding-left: 185px;
+    font-weight: bold;
+}
+#kabir_duration
+{
+    padding-left: 219px;
+    font-weight: bold;
+}
+.heart1_kabir
+{
+    display: inline-block;
+    position: relative;
+    top: -403px;
+    left: 135px;
+}
+.heart1_kabir:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_kabir path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart2_kabir
+{
+    display: inline-block;
+    position: relative;
+    top: -347px;
+    left: 115px;
+}
+.heart2_kabir:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_kabir path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart3_kabir
+{
+    display: inline-block;
+    position: relative;
+    top: -293px;
+    left: 95px;
+}
+.heart3_kabir:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_kabir path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart4_kabir
+{
+    display: inline-block;
+    position: relative;
+    top: -239px;
+    left: 75px;
+}
+.heart4_kabir:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_kabir path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart5_kabir
+{
+    display: inline-block;
+    position: relative;
+    top: -184px;
+    left: 55px;
+}
+.heart5_kabir:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_kabir path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart6_kabir
+{
+    display: inline-block;
+    position: relative;
+    top: -130px;
+    left: 35px;
+}
+.heart6_kabir:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart6_kabir path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart7_kabir
+{
+    display: inline-block;
+    position: relative;
+    top: -76px;
+    left: 15px;
+}
+.heart7_kabir:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart7_kabir path
+{
+    stroke: black;
+    stroke-width: 3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #kabir_space
+    {
+        height: 450px;
+    }
+    #kabir_number
+    {
+        padding-left: 18px;
+        font-weight: bold;
+    }
+    #kabir_name
+    {
+        padding-left: 73px;
+        font-weight: bold;
+    }
+    #kabir_artists
+    {
+        padding-left:78px;
+        font-weight: bold;
+    }
+    #kabir_duration
+    {
+        display: none;
+    }
+    .heart1_kabir
+    {
+        display: inline-block;
+        position: relative;
+        top:-385px;
+        left:55px;
+    }
+    .heart2_kabir
+    {
+        display: inline-block;
+    position: relative;
+    top: -330px;
+    left: 35px;
+    }
+    .heart3_kabir {
+        display: inline-block;
+        position: relative;
+        top: -276px;
+        left: 15px;
+    }
+    .heart4_kabir {
+        display: inline-block;
+        position: relative;
+        top: -220px;
+        left: -5px;
+    }
+    .heart5_kabir {
+        display: inline-block;
+        position: relative;
+        top: -166px;
+        left: -25px;
+    }
+    .heart6_kabir {
+        display: inline-block;
+        position: relative;
+        top: -111px;
+        left: -45px;
+    }
+    .heart7_kabir {
+        display: inline-block;
+        position: relative;
+        top: -57px;
+        left: -65px;
+    }
+    #wall_kabir
+    {
+        left:8px;
+        top:30px;
+    }
+}

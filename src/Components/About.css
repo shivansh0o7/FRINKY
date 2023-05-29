@@ -1,0 +1,35 @@
+.About_Container
+{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.About_head
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: -100px;
+}
+.About_head h1
+{
+    color: white;
+    font-size: 75px;
+    font-family: cursive;
+}
+.AboutPara
+{
+    background: linear-gradient(291deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.AboutPara p
+{
+    margin: 121px;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+}
+#AboutPara2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}

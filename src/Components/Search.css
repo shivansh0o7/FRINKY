@@ -1,0 +1,26 @@
+.Searching_Component
+{
+    display:grid;
+    grid-template-columns:1fr 6fr;
+}
+.SearchBar
+{
+    background: linear-gradient(256deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+#BigImage:hover
+{
+    scale:1.5;
+    transition: 0.2s ease-in;
+    opacity: 1;
+}
+/* .navbar_phone
+{
+    display: none;
+} */
+@media screen and (max-width: 460px) 
+{
+   .Searching_Component
+   {
+    display: none;
+   }
+}

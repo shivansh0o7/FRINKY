@@ -1,0 +1,33 @@
+@media screen and (max-width: 460px) 
+{
+    .TopSong {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 37px;
+        gap: 13px;
+    }
+    .Songs {
+        width: 68px;
+        padding: 18px;
+        border-radius: 10px;
+        background: #00000021;
+    }
+    .Songs img {
+        height: 68px;
+        filter: drop-shadow(1px 6px 10px black);
+    }
+    .Songs h2 {
+        margin: 0px;
+        margin-top: 11px;
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .Songs p {
+        margin: 0px;
+        margin-left: 11px;
+        margin-top: 5px;
+        color: white;
+        font-size: 9px;
+    }
+}

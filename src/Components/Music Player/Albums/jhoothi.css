@@ -1,0 +1,210 @@
+#jhoothi_Number
+{
+    padding-left:103px;
+    font-weight:bold;
+}
+#jhoothi_Name
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#jhoothi_Artists
+{
+    padding-left: 188px;
+    font-weight: bold;
+}
+#jhoothi_Duration
+{
+    padding-left: 387px;
+    font-weight: bold;
+}
+#wall_jhoothi {
+    height: 305px;
+    position: relative;
+    top: 30px;
+    left: 95px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+.duration_jhoothi
+{
+    margin-top: 8px;
+    margin-left: 255px;
+}
+.duration_jhoothi p
+{
+    margin-bottom: 36px;
+}
+.heart1_tu{
+    display: inline-block;
+    position: relative;
+    top: -346px;
+    left: 137px;
+}
+.heart1_tu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_tu path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart2_tu{
+    display: inline-block;
+    position: relative;
+    top: -291px;
+    left: 117px;
+}
+.heart2_tu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_tu path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart3_tu{
+    display: inline-block;
+    position: relative;
+    top: -237px;
+    left: 97px;
+}
+.heart3_tu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_tu path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart4_tu{
+    display: inline-block;
+    position: relative;
+    top: -180px;
+    left: 76px;
+}
+.heart4_tu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_tu path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart5_tu{
+    display: inline-block;
+    position: relative;
+    top: -126px;
+    left: 56px;
+}
+.heart5_tu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_tu path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart6_tu{
+    display: inline-block;
+    position: relative;
+    top: -72px;
+    left: 36px;
+}
+.heart6_tu:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart6_tu path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #jhoothi_space
+    {
+        height: 341px;
+    }
+    #wall_jhoothi
+    {
+        left:9px;
+        top:20px;
+    }
+#jhoothi_Number
+{
+    padding-left: 20px;
+    font-weight: bold;
+}
+#jhoothi_Name
+{
+    padding-left: 72px;
+    font-weight: bold;
+}
+#jhoothi_Artists
+{
+    padding-left: 85px;
+    font-weight: bold;
+}
+#jhoothi_Duration
+{
+    display: none;
+}
+.duration_jhoothi
+{
+    display: none;
+}
+    .heart1_tu {
+        display: inline-block;
+        position: relative;
+        top: -351px;
+        left: 54px;
+    }
+    .heart2_tu {
+        display: inline-block;
+        position: relative;
+        top: -296px;
+        left: 35px;
+    }
+    .heart3_tu {
+        display: inline-block;
+        position: relative;
+        top: -242px;
+        left: 16px;
+    }
+    .heart4_tu {
+        display: inline-block;
+        position: relative;
+        top: -187px;
+        left: -4px;
+    }
+    .heart5_tu {
+        display: inline-block;
+        position: relative;
+        top: -132px;
+        left: -25px;
+    }
+    .heart6_tu {
+        display: inline-block;
+        position: relative;
+        top: -78px;
+        left: -45px;
+    }
+}

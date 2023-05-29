@@ -1,0 +1,175 @@
+.navigation
+{
+    width: 84.4%;
+    position: fixed;
+    /* top: 635px;
+    right: 0px;
+    left: 235px; */
+    z-index: 3;
+}
+
+.navigation_wrapper
+{
+    min-width: 100%;
+    background-color: black;
+    height: 4px;
+    cursor:pointer;
+}
+
+.seek_bar
+{
+    width:0;
+    height: 100%;
+    background-color: yellowgreen;
+    border-radius: 30px;
+}
+
+.Musicplayer
+{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    position: fixed;
+    bottom: -4px;
+    left: 235px;
+    right: 1px;
+    z-index: 3;
+}
+
+#ct
+{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -2px;
+    right: 100px;
+    font-size: 22px;
+}
+
+#duration
+{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -2px;
+    left: 30px;
+    font-size: 22px;
+}
+.playerImage
+{
+    position: relative;
+    right: 310px;
+    top: 2px;
+}
+.playerImage img
+{
+    height: 65px;
+    margin-top: 6px;
+    clip-path: circle(50% at 50% 50%);
+    animation: rotation 8s infinite linear;
+}
+.player_img
+{
+    margin: 20px;
+    height: 40px;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Player_comp
+{
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+    cursor: pointer;
+}
+
+.repeat
+{
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    left: 138px;
+    cursor: pointer;
+}
+@media screen and (max-width: 460px) 
+{
+    .navigation {
+        width: 100%;
+        position: fixed;
+        /* top: 842px; */
+        left: 0px;
+        bottom: 70px;
+        z-index: 3;
+    }
+    .Musicplayer {
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+        position: fixed;
+        top:auto;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 3;
+    }
+    .playerImage {
+        position: relative;
+        left: 33px;
+        top: 13px;
+        right: auto;
+        margin-right: 64px;
+    }
+    .playerImage img {
+        height: 40px;
+        clip-path: circle(50% at 50% 50%);
+        animation: rotation 8s infinite linear;
+    }
+#ct {
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: 15px;
+    right: auto;
+    font-size: 12px;
+}
+.Player_comp {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    cursor: pointer;
+}
+#phone_player_img
+{
+    margin: 20px;
+    height: 20px;
+}
+#phone_player_img1
+{
+    margin: 15px;
+    height: 30px;
+}
+#duration {
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: 15px;
+    left:auto;
+    font-size: 12px;
+}
+.repeat {
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    top:auto;
+    left:auto;
+}
+}

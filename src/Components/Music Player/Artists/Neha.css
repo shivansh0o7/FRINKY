@@ -1,0 +1,41 @@
+#neha_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#neha_name
+{
+    padding-left: 153px;
+    font-weight: bold;
+}
+#neha_wal
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px; 
+}
+@media screen and (max-width: 460px) 
+{
+    .neha_phone
+    {
+        width: 509px;
+        margin-left: -97px;
+    }
+    #neha_wal
+    {
+        height: 221px;
+    left: 14px;
+    top: 95px;
+    }
+    #neha_number
+    {
+       padding-left: 6px; 
+    }
+    #neha_name
+    {
+        padding-left: 67px;
+    }
+}

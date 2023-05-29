@@ -1,0 +1,58 @@
+.album
+{
+    display: flex;
+    margin-left: 27px;
+    gap:29px
+}
+#Album
+{
+    display: flex;
+    gap: 20px;
+    width: 774px;
+}
+#com_al
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Album img
+{
+    height: 150px;
+    clip-path: circle(50% at 50% 50%);
+}
+#Album img:hover
+{
+    cursor:pointer;
+}
+#Album a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Album a:hover
+{
+    color:blueviolet;
+}
+@media screen and (max-width: 460px) {
+    .album
+    {
+        display: none;
+    }
+    #Album {
+        display: flex;
+        gap: 8px;
+        margin-left: 10px;
+    }
+    #Album a{
+        font-size: 9px;
+    }
+    #Album img
+    {
+        height: 90px;
+    }
+}

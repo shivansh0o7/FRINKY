@@ -1,0 +1,200 @@
+#sheh_wal {
+    height: 300px;
+    /* width: 100%; */
+    position: relative;
+    top: 46px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#sheh_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#sheh_name
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#sheh_artists
+{
+    padding-left: 182px;
+    font-weight: bold;
+}
+#sheh_duration
+{
+    padding-left: 365px;
+    font-weight: bold;
+}
+.duration_sheh{
+    margin-top: 8px;
+    margin-left: 222px;
+}
+.duration_sheh p
+{
+    margin-bottom:34px;
+}
+.heart1_shah
+{
+    display: inline-block;
+    position: relative;
+    top: -278px;
+    left: 136px
+}
+.heart1_shah:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_shah path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart2_shah
+{
+    display: inline-block;
+    position: relative;
+    top: -223px;
+    left: 116px;
+}
+.heart2_shah:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_shah path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart3_shah
+{
+    display: inline-block;
+    position: relative;
+    top: -169px;
+    left: 96px;
+}
+.heart3_shah path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart3_shah:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_shah
+{
+    display: inline-block;
+    position: relative;
+    top: -114px;
+    left: 76px;
+}
+.heart4_shah:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_shah path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+.heart5_shah
+{
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    top: -60px;
+}
+.heart5_shah:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_shah path
+{
+    stroke:black;
+    stroke-width: 3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #sheh_wal {
+        height: 300px;
+        /* width: 100%; */
+        position: relative;
+        top: 19px;
+        left: 12px;
+        border: 3px solid white;
+        border-radius: 15px;
+    }
+    #sheh_space
+    {
+        height: 389px;
+    }
+    #sheh_number
+    {
+        padding-left: 16px;
+    font-weight: bold;
+    }
+    #sheh_name
+    {
+        padding-left: 75px;
+        font-weight: bold;
+    }
+    #sheh_artists
+    {
+        padding-left: 94px;
+        font-weight: bold;
+    }
+    #sheh_duration
+    {
+        display: none;
+    }
+    .duration_sheh
+    {
+        display: none;
+    }
+    .heart1_shah
+    {
+        display: inline-block;
+        position: relative;
+        top: -299px;
+        left: 54px;
+    }
+    .heart2_shah
+    {
+        display: inline-block;
+    position: relative;
+    top: -245px;
+    left: 34px;
+    }
+    .heart3_shah
+    {
+        display: inline-block;
+        position: relative;
+        top: -190px;
+        left: 15px;
+    }
+    .heart4_shah
+    {
+        display: inline-block;
+    position: relative;
+    top: -136px;
+    left: -5px;
+    }
+    .heart5_shah {
+        display: inline-block;
+        position: relative;
+        left: -26px;
+        top: -81px;
+    }
+}

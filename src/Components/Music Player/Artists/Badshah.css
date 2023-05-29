@@ -1,0 +1,41 @@
+#wall_badshah
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px; 
+}
+#badshah_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#badshah_name
+{
+    padding-left: 153px;
+    font-weight: bold;
+}
+@media screen and (max-width: 460px) 
+{
+    .phone_badshah
+    {
+        width: 509px;
+        margin-left: -97px;
+    }
+ #wall_badshah
+ {
+    height: 258px;
+    top: 58px;
+    left: 12px;
+ }
+ #badshah_number
+ {
+    padding-left: 8px;
+ }
+ #badshah_name
+ {
+    padding-left: 66px;
+ }
+}

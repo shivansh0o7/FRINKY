@@ -1,0 +1,36 @@
+#jubin_wal
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#jubin_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#jubin_name
+{
+    padding-left: 153px;
+    font-weight: bold;
+}
+@media screen and (max-width: 460px) 
+{
+    #jubin_wal
+    {
+        height: 262px;
+        top: 60px;
+        left: 8px;
+    }
+    #jubin_number
+    {
+        padding-left: 6px;
+    }
+    #jubin_name
+    {
+        padding-left: 68px;
+    }
+}

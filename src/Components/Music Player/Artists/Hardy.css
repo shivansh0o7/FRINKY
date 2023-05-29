@@ -1,0 +1,40 @@
+#wall_hardy
+{
+    height: 313px;
+    position: relative;
+    top: 28px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#hardy_number
+{
+ padding-left: 103px;
+ font-weight: bold;
+}
+#hardy_name
+{
+    padding-left: 153px;
+    font-weight: bold;
+}
+@media screen and (max-width: 460px) 
+{
+    #wall_hardy
+    {
+        height: 278px;
+        top: 39px;
+        left: 5px;
+    }
+    .phone_hardy {
+        width: 509px;
+        margin-left: -97px;
+    }
+    #hardy_number
+    {
+        padding-left: 7px;
+    }
+    #hardy_name
+    {
+        padding-left: 67px;
+    }
+}

@@ -1,0 +1,42 @@
+.navb
+{
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 745px;
+    width: 235px;
+    bottom: 0px;
+}
+.navb ul
+{
+    margin-top: 194px;
+    margin-left: -3px;
+}
+.navb li
+{
+    list-style: none;
+    display: flex;
+    padding-bottom: 20px;
+}
+.navb a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 17px;
+    margin-top: 7px;
+}
+.navb a:hover
+{
+    color:blueviolet;
+    transition: 0.2s ease-in;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 460px) 
+{
+    .navb
+    {
+        display: none;
+    }
+}

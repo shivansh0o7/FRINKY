@@ -1,0 +1,234 @@
+#wall_sheh
+{
+    position: relative;
+    height: 300px;
+    top: 45px;
+    left: 94px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#shehzada_number
+{
+    padding-left: 103px;
+    font-weight: bold;
+}
+#shehzada_name
+{
+    padding-left: 104px;
+    font-weight: bold;
+}
+#shehzada_artists
+{
+    padding-left: 212px;
+    font-weight: bold;
+}
+#shehzada_duration
+{
+    padding-left: 404px;
+    font-weight: bold;
+}
+.heart1_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -283px;
+    left: 136px;
+}
+.heart1_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart2_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -228px;
+    left: 115px;
+}
+.heart2_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart3_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -174px;
+    left: 95px;
+}
+.heart3_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart4_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -117px;
+    left: 75px;
+}
+.heart4_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart5_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -64px;
+    left: 55px;
+}
+.heart5_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+@media screen and (max-width: 460px) 
+{
+    #luka_space
+    {
+        height: 395px;
+    }
+    #wall_sheh
+    {
+        height: 272px;
+    position: relative;
+    top: 44px;
+    left: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+    }
+#shehzada_duration
+{
+    display: none;
+}
+#shehzada_number
+{
+    padding-left: 13px;
+    font-weight: bold;
+}
+#shehzada_name
+{
+    padding-left: 76px;
+    font-weight: bold;
+}
+#shehzada_artists
+{
+    padding-left: 80px;
+    font-weight: bold;
+}
+.heart1_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -294px;
+    left: 55px;
+}
+.heart1_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart1_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart2_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -239px;
+    left: 34px;
+}
+.heart2_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart2_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart3_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -184px;
+    left: 15px;
+}
+.heart3_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart3_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart4_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -131px;
+    left: -5px;
+}
+.heart4_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart4_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+.heart5_sheh
+{
+    display: inline-block;
+    position: relative;
+    top: -76px;
+    left: -26px;
+}
+.heart5_sheh:hover
+{
+    cursor: pointer;
+    scale:1.2;
+    transition: 0.2s ease-in;
+}
+.heart5_sheh path {
+    stroke: black;
+    stroke-width: 3px;
+}
+}
